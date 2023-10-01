@@ -494,3 +494,24 @@ body {
     font-size: 14px;
     white-space: pre-wrap;
 }
+
+.header_search{
+    background-color: white;
+    display: flex;
+}
+.header_search > input{
+    outline: none;
+    height: 25px;
+    padding-left: 5px;
+    width: 80%;
+    background-color: transparent;
+    border:none;
+}
+.header_search_icons{
+    width: 20%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgba(0,0,0,0.2);
+}
