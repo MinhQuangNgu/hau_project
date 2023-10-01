@@ -2,6 +2,9 @@ body {
     font-family: 'Noto Sans', sans-serif;
     overflow-x: hidden;
 }
+html{
+    font-size: 12px;
+}
 
 /* CSS Reset */
 * {
@@ -173,7 +176,7 @@ body {
     justify-content: center;
 }
 
-.body_book_1_btn>button {
+.body_book_1_btn button {
     width: 100px;
     height: 35px;
     border: 5px solid rgba(0, 0, 0, 0.5);
@@ -191,7 +194,7 @@ body {
 .body_book_2-detail {
     color: white;
     margin: 3px 0;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .body_book_2-detail>span {
@@ -214,11 +217,11 @@ body {
     padding-top: 20px;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .comment > span {
-    width: 10%;
+    width: 13%;
     color: rgba(255, 0, 0, 0.8);
     margin-right: 5px;
 }
