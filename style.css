@@ -363,6 +363,7 @@ body {
     left:0;
     right:0;
     bottom:0;
+    background-color: #C1D9EC;
 }
 .book_read_img > img{
     width: 100%;
@@ -398,6 +399,7 @@ body {
     display: flex;
     z-index: 10;
     align-items: end;
+    
 }
 .book_read_img_nxb > img{
     width: 80px;
